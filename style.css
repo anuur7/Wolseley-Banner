@@ -21,7 +21,7 @@
 
 .title{
     padding-top: 30px;
-    margin-left: 400px;
+    margin-left: 180px;
 }
 
 h1{
@@ -40,8 +40,8 @@ h2{
     padding: 15px;
     font-size: 25px;
     float: right;
-    margin-top: -70px;
-    margin-right: 20px;
+    margin-top: -90px;
+    margin-right: 40px;
     background-color: #3b3b3b;
     color: white;
     cursor: pointer;
@@ -91,9 +91,7 @@ h2{
     visibility: visible;
     display: flex;
     width: 200px;
-    padding: 15git add .
-    px;
-    margin-top: -40px;
+    padding: 15px;
     font-size: 25px;
     background-color: #3b3b3b;
     color: white;
