@@ -19,21 +19,6 @@
     height: 200px;
 }
 
-.btn{
-    display: flex;
-    width: 200px;
-    padding: 15px;
-    font-size: 25px;
-    margin: 130px 100px 0px 0px;
-    background-color: #3b3b3b;
-    color: white;
-}
-
-.chevron{
-    width: 32px;
-    margin-left: 10px;
-}
-
 .title{
     padding-top: 30px;
 }
@@ -47,3 +32,50 @@ h2{
     color: #cd2e31;
     font-size: 110px;
 }
+
+#check{
+    display: none;
+}
+
+.content{
+    display: none;
+}
+
+.btn{
+    display: flex;
+    width: 200px;
+    padding: 15px;
+    font-size: 25px;
+    margin: 130px 100px 0px 0px;
+    background-color: #3b3b3b;
+    color: white;
+    cursor: pointer;
+}
+
+.chevron{
+    width: 32px;
+    margin-left: 8px;
+}
+
+#check:checked ~ .content{
+    display: block;
+    margin-top: 60px;
+    background-color: white;
+}
+
+#check:checked ~ label{
+    visibility: hidden;
+}
+
+#check:checked ~ label:after{
+    content: 'Read Less';
+    visibility: visible;
+    display: flex;
+    width: 200px;
+    padding: 15px;
+    font-size: 25px;
+    background-color: #3b3b3b;
+    color: white;
+    cursor: pointer;
+}
+
